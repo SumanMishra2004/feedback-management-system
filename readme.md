@@ -1,46 +1,272 @@
-Feedback App
-This project is a simple feedback application with a backend written in Node.js and TypeScript using Express, and a frontend written in React with TypeScript.
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+</p>
+<p align="center">
+    <h1 align="center">FEEDBACK-MANAGEMENT-SYSTEM</h1>
+</p>
+<p align="center">
+    <em>HTTP error 401 for prompt `slogan`</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/SumanMishra2004/feedback-management-system.git?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/SumanMishra2004/feedback-management-system.git?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/SumanMishra2004/feedback-management-system.git?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/SumanMishra2004/feedback-management-system.git?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black" alt="JavaScript">
+	<img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=flat&logo=HTML5&logoColor=white" alt="HTML5">
+	<img src="https://img.shields.io/badge/Nodemon-76D04B.svg?style=flat&logo=Nodemon&logoColor=white" alt="Nodemon">
+	<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
+	<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
+	<img src="https://img.shields.io/badge/tsnode-3178C6.svg?style=flat&logo=ts-node&logoColor=white" alt="tsnode">
+	<img src="https://img.shields.io/badge/Express-000000.svg?style=flat&logo=Express&logoColor=white" alt="Express">
+	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
+</p>
+<hr>
 
-Project Structure:
+##  Quick Links
 
-backend: Contains the backend code for the application.
-src: Contains the source code for the backend.
-app.ts: Main entry point for the backend server.
-controllers: Contains controller files for handling API requests.
-models: Contains model definitions for data (optional, can be in-memory).
-routes: Contains routes for the API endpoints.
-services: Contains services for handling business logic (optional).
-package.json: Contains dependencies and scripts for the backend.
-frontend: Contains the frontend code for the application.
-src: Contains the source code for the frontend.
-App.tsx: Main component for the React application.
-components: Contains reusable React components.
-package.json: Contains dependencies and scripts for the frontend.
-Running the Application:
+> - [ Overview](#-overview)
+> - [ Features](#-features)
+> - [ Repository Structure](#-repository-structure)
+> - [ Modules](#-modules)
+> - [ Getting Started](#-getting-started)
+>   - [ Installation](#-installation)
+>   - [ Running feedback-management-system](#-running-feedback-management-system)
+>   - [ Tests](#-tests)
+> - [ Project Roadmap](#-project-roadmap)
+> - [ Contributing](#-contributing)
+> - [ License](#-license)
+> - [ Acknowledgments](#-acknowledgments)
 
-Backend:
-Clone the repository.
-Navigate to the backend directory.
-Install dependencies: npm install
-Start the server: npm start
-Frontend:
-Navigate to the frontend directory.
-Install dependencies: npm install
-Start the development server: npm start
-API Endpoints:
+---
 
-GET /feedback: Retrieves all feedback entries.
-POST /feedback: Submits a new feedback entry (body: { name: string, feedback: string }).
-Optional Features:
+##  Overview
 
-Rate limiting on the backend (configurable)
-Virtual/infinite scrolling on the frontend
-Notes:
+HTTP error 401 for prompt `overview`
 
-This project uses an in-memory data structure for feedback entries.
-Web workers are used for fetching data in the frontend (optional).
-Additional Notes:
+---
 
-Feel free to add additional functionalities to the application.
-Consider implementing unit tests for both frontend and backend code.
-Document your code with comments for better maintainability.
+##  Features
+
+HTTP error 401 for prompt `features`
+
+---
+
+##  Repository Structure
+
+```sh
+└── feedback-management-system/
+    ├── backend
+    │   ├── .gitignore
+    │   ├── dataModel
+    │   │   └── feedback.model.ts
+    │   ├── package-lock.json
+    │   ├── package.json
+    │   └── server.ts
+    ├── frontend
+    │   ├── .gitignore
+    │   ├── README.md
+    │   ├── package-lock.json
+    │   ├── package.json
+    │   ├── public
+    │   │   ├── background.jpg
+    │   │   ├── favicon.ico
+    │   │   ├── index.html
+    │   │   ├── logo192.png
+    │   │   ├── logo512.png
+    │   │   ├── manifest.json
+    │   │   └── robots.txt
+    │   ├── src
+    │   │   ├── App.css
+    │   │   ├── App.test.tsx
+    │   │   ├── App.tsx
+    │   │   ├── components
+    │   │   │   └── UserForm.tsx
+    │   │   ├── index.css
+    │   │   ├── index.tsx
+    │   │   ├── logo.svg
+    │   │   ├── react-app-env.d.ts
+    │   │   ├── reportWebVitals.ts
+    │   │   └── setupTests.ts
+    │   ├── tailwind.config.js
+    │   └── tsconfig.json
+    └── readme.md
+```
+
+---
+
+##  Modules
+
+<details closed><summary>backend</summary>
+
+| File                                                                                                                         | Summary                                               |
+| ---                                                                                                                          | ---                                                   |
+| [server.ts](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/backend/server.ts)                 | HTTP error 401 for prompt `backend/server.ts`         |
+| [package.json](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/backend/package.json)           | HTTP error 401 for prompt `backend/package.json`      |
+| [package-lock.json](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/backend/package-lock.json) | HTTP error 401 for prompt `backend/package-lock.json` |
+
+</details>
+
+<details closed><summary>backend.dataModel</summary>
+
+| File                                                                                                                                   | Summary                                                         |
+| ---                                                                                                                                    | ---                                                             |
+| [feedback.model.ts](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/backend/dataModel/feedback.model.ts) | HTTP error 401 for prompt `backend/dataModel/feedback.model.ts` |
+
+</details>
+
+<details closed><summary>frontend</summary>
+
+| File                                                                                                                            | Summary                                                 |
+| ---                                                                                                                             | ---                                                     |
+| [tsconfig.json](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/tsconfig.json)           | HTTP error 401 for prompt `frontend/tsconfig.json`      |
+| [package.json](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/package.json)             | HTTP error 401 for prompt `frontend/package.json`       |
+| [tailwind.config.js](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/tailwind.config.js) | HTTP error 401 for prompt `frontend/tailwind.config.js` |
+| [package-lock.json](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/package-lock.json)   | HTTP error 401 for prompt `frontend/package-lock.json`  |
+
+</details>
+
+<details closed><summary>frontend.public</summary>
+
+| File                                                                                                                         | Summary                                                   |
+| ---                                                                                                                          | ---                                                       |
+| [index.html](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/public/index.html)       | HTTP error 401 for prompt `frontend/public/index.html`    |
+| [manifest.json](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/public/manifest.json) | HTTP error 401 for prompt `frontend/public/manifest.json` |
+| [robots.txt](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/public/robots.txt)       | HTTP error 401 for prompt `frontend/public/robots.txt`    |
+
+</details>
+
+<details closed><summary>frontend.src</summary>
+
+| File                                                                                                                                | Summary                                                     |
+| ---                                                                                                                                 | ---                                                         |
+| [react-app-env.d.ts](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/src/react-app-env.d.ts) | HTTP error 401 for prompt `frontend/src/react-app-env.d.ts` |
+| [setupTests.ts](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/src/setupTests.ts)           | HTTP error 401 for prompt `frontend/src/setupTests.ts`      |
+| [index.tsx](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/src/index.tsx)                   | HTTP error 401 for prompt `frontend/src/index.tsx`          |
+| [App.css](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/src/App.css)                       | HTTP error 401 for prompt `frontend/src/App.css`            |
+| [App.test.tsx](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/src/App.test.tsx)             | HTTP error 401 for prompt `frontend/src/App.test.tsx`       |
+| [App.tsx](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/src/App.tsx)                       | HTTP error 401 for prompt `frontend/src/App.tsx`            |
+| [index.css](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/src/index.css)                   | HTTP error 401 for prompt `frontend/src/index.css`          |
+| [reportWebVitals.ts](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/src/reportWebVitals.ts) | HTTP error 401 for prompt `frontend/src/reportWebVitals.ts` |
+
+</details>
+
+<details closed><summary>frontend.src.components</summary>
+
+| File                                                                                                                               | Summary                                                          |
+| ---                                                                                                                                | ---                                                              |
+| [UserForm.tsx](https://github.com/SumanMishra2004/feedback-management-system.git/blob/master/frontend/src/components/UserForm.tsx) | HTTP error 401 for prompt `frontend/src/components/UserForm.tsx` |
+
+</details>
+
+---
+
+##  Getting Started
+
+***Requirements***
+
+Ensure you have the following dependencies installed on your system:
+
+* **JSON**: `version x.y.z`
+
+###  Installation
+
+1. Clone the feedback-management-system repository:
+
+```sh
+git clone https://github.com/SumanMishra2004/feedback-management-system.git
+```
+
+2. Change to the project directory:
+
+```sh
+cd feedback-management-system
+```
+
+3. Install the dependencies:
+
+```sh
+> INSERT-INSTALL-COMMANDS
+```
+
+###  Running feedback-management-system
+
+Use the following command to run feedback-management-system:
+
+```sh
+> INSERT-RUN-COMMANDS
+```
+
+###  Tests
+
+To execute tests, run:
+
+```sh
+> INSERT-TEST-COMMANDS
+```
+
+---
+
+##  Project Roadmap
+
+- [X] `► INSERT-TASK-1`
+- [ ] `► INSERT-TASK-2`
+- [ ] `► ...`
+
+---
+
+##  Contributing
+
+Contributions are welcome! Here are several ways you can contribute:
+
+- **[Submit Pull Requests](https://github.com/SumanMishra2004/feedback-management-system.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **[Join the Discussions](https://github.com/SumanMishra2004/feedback-management-system.git/discussions)**: Share your insights, provide feedback, or ask questions.
+- **[Report Issues](https://github.com/SumanMishra2004/feedback-management-system.git/issues)**: Submit bugs found or log feature requests for Feedback-management-system.
+
+<details closed>
+    <summary>Contributing Guidelines</summary>
+
+1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
+2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
+   ```sh
+   git clone https://github.com/SumanMishra2004/feedback-management-system.git
+   ```
+3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
+   ```sh
+   git checkout -b new-feature-x
+   ```
+4. **Make Your Changes**: Develop and test your changes locally.
+5. **Commit Your Changes**: Commit with a clear message describing your updates.
+   ```sh
+   git commit -m 'Implemented new feature x.'
+   ```
+6. **Push to GitHub**: Push the changes to your forked repository.
+   ```sh
+   git push origin new-feature-x
+   ```
+7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
+
+Once your PR is reviewed and approved, it will be merged into the main branch.
+
+</details>
+
+---
+
+##  License
+
+This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+
+---
+
+##  Acknowledgments
+
+- List any resources, contributors, inspiration, etc. here.
+
+[**Return**](#-quick-links)
+
+---
