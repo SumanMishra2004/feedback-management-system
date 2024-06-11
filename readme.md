@@ -4,15 +4,7 @@
 <p align="center">
     <h1 align="center">FEEDBACK-MANAGEMENT-SYSTEM</h1>
 </p>
-<p align="center">
-    <em>HTTP error 401 for prompt `slogan`</em>
-</p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/SumanMishra2004/feedback-management-system.git?style=flat&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/SumanMishra2004/feedback-management-system.git?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/SumanMishra2004/feedback-management-system.git?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/SumanMishra2004/feedback-management-system.git?style=flat&color=0080ff" alt="repo-language-count">
-<p>
+
 <p align="center">
 		<em>Developed with the software and tools below.</em>
 </p>
@@ -47,13 +39,14 @@
 
 ##  Overview
 
-HTTP error 401 for prompt `overview`
+Manage feedbacks
 
 ---
 
 ##  Features
 
-HTTP error 401 for prompt `features`
+1. Manage feedback from user .
+2.store feedback and user name in a array formate without any databases.
 
 ---
 
@@ -188,85 +181,23 @@ git clone https://github.com/SumanMishra2004/feedback-management-system.git
 cd feedback-management-system
 ```
 
-3. Install the dependencies:
-
+3. cd frontend and backend and download packages:
 ```sh
-> INSERT-INSTALL-COMMANDS
+cd frontend
+npm install
+cd backend
+npm install
 ```
+
 
 ###  Running feedback-management-system
 
 Use the following command to run feedback-management-system:
 
 ```sh
-> INSERT-RUN-COMMANDS
+> cd frontend
+npm run dev
+cd ..
+cd backend
+npm run dev
 ```
-
-###  Tests
-
-To execute tests, run:
-
-```sh
-> INSERT-TEST-COMMANDS
-```
-
----
-
-##  Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
-
----
-
-##  Contributing
-
-Contributions are welcome! Here are several ways you can contribute:
-
-- **[Submit Pull Requests](https://github.com/SumanMishra2004/feedback-management-system.git/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/SumanMishra2004/feedback-management-system.git/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://github.com/SumanMishra2004/feedback-management-system.git/issues)**: Submit bugs found or log feature requests for Feedback-management-system.
-
-<details closed>
-    <summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
-   ```sh
-   git clone https://github.com/SumanMishra2004/feedback-management-system.git
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to GitHub**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-
-Once your PR is reviewed and approved, it will be merged into the main branch.
-
-</details>
-
----
-
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
-
-##  Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
-[**Return**](#-quick-links)
-
----
